@@ -15,57 +15,50 @@
 </head>
 
 <body>
-  <div class="wrap d-flex ">
-    <div class="list d-flex flex-column justify-content-between">
-      <div class="list-top-section">
-        <h1><img src="./assets/images/logo-ANSWER.svg" alt=""></h1>
-        <div role="tabpanel">
-          <!-- List group -->
-          <div class="list-group" id="myList" role="tablist">
-            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#" role="tab">
-              <div class="list-content d-flex"><span class="material-icons pe-3">assessment</span>
-                <h2>Dashboard</h2>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#" role="tab">
-              <div class="list-content d-flex"><span class="material-icons pe-3">forum</span>
-                <h2>Question</h2>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" href="./assignment.html" role="tab">
-              <div class="list-content d-flex"><span class="material-icons pe-3">content_paste</span>
-                <h2>Assignment</h2>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" href="#" role="tab">
-              <div class="list-content d-flex"><span class="material-icons pe-3">video_library</span>
-                <h2>Course</h2>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" href="./admin.html" role="tab">
-              <div class="list-content d-flex"><span class="material-icons pe-3">people_alt</span>
-                <h2>Admin</h2>
-              </div>
-            </a>
-            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#" role="tab">
-              <div class="list-content d-flex"><span class="material-icons pe-3">settings</span>
-                <h2>Settings</h2>
-              </div>
-            </a>
+  <div class="wrap">
+    <div class="header">
+      <h1><img src="./assets/images/desktop/logo-new_工作區域 1.png" alt=""></h1>
+      <ul>
+        <li><a href="">系列鏡框</a></li>
+        <li><a href="">門市據點</a></li>
+        <li><a href="">部落格</a></li>
+        <li><a href="">常見問題</a></li>
+      </ul>
+    </div>
+    <%- contents %>
+      <div class="footer">
+        <div class="top">
+          <div class="left-section">
+            <ul class="list">
+              <li><a href="">首頁</a></li>
+              <li><a href="">系列鏡框</a></li>
+              <li><a href="">門市據點</a></li>
+              <li><a href="">部落格</a></li>
+              <li><a href="">常見問題</a></li>
+            </ul>
+            <ul>
+              <li><span class="material-icons">
+                  phone
+                </span>
+                <a href="tel:0800-000-000">0800-000-000</a>
+              </li>
+              <li><span class="material-icons">
+                  mail_outline
+                </span>
+                <a href="mailto:glasses@business.com">glasses@business.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right-section">
+            <ul>
+              <li><a href=""><img src="./assets/images/desktop/ic-social-fb.png" alt=""></a></li>
+              <li><a href=""><img src="./assets/images/desktop/ic_social_ig.png" alt=""></a></li>
+              <li><a href=""><img src="./assets/images/desktop/ic_social_line.png" alt=""></a></li>
+            </ul>
           </div>
         </div>
+        <div class="btm"></div>
       </div>
-      <div class="account d-flex">
-        <img src="./assets/images/andychen.jpeg" alt="">
-        <div class="account-text ms-3">
-          <h4 class="mb-1">Andy Chen</h4>
-          <p>andy0401@mail.com</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <%- contents %>
-    </div>
   </div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
