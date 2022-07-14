@@ -1,0 +1,96 @@
+.fundational-view {
+  .select {
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    margin: 33px 0;
+
+    label {
+      font-size: 24px;
+      margin-right: 16px;
+    }
+
+    select {
+      width: 304px;
+      height: 38px;
+      padding: 6px 12px;
+    }
+  }
+
+  .item-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .item {
+      width: 416px;
+      margin-bottom: 48px;
+      border-right: 1px solid #00000020;
+      border-left: 1px solid #00000020;
+    }
+
+    .item:last-child {
+      margin-right: auto;
+      margin-left: 24px;
+    }
+
+    h3 {
+      line-height: 36px;
+      font-size: 24px;
+      padding: 8px 0 8px 24px;
+      border-bottom: 1px solid #00000020;
+    }
+
+    ul {
+      padding: 8px 0;
+
+      li {
+        padding: 8px 24px 0px 27px;
+        display: flex;
+        line-height: 30px;
+
+        i {
+          font-size: 18px;
+        }
+
+        p {
+          margin-left: 12px;
+          font-size: 20px;
+        }
+
+        a {
+          color: black;
+        }
+
+        a:hover {
+          color: gray;
+        }
+      }
+
+      li:last-child {
+        padding-bottom: 8px;
+      }
+    }
+
+    .detail {
+      display: block;
+      width: 100%;
+      line-height: 27px;
+      font-size: 19px;
+      padding: 16px 0;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+
+    .detail:hover {
+      background-color: gray;
+      color: black;
+    }
+  }
+}

@@ -24,10 +24,13 @@
     border-bottom: 8px solid #AA0601;
     cursor: pointer;
   }
+
+  a {
+    color: black;
+  }
 }
 
-.optical-view {
-
+.products-view {
   .title-img {
     display: flex;
     width: 100%;
@@ -38,8 +41,7 @@
   }
 
   .products-list {
-    width: 67.5%;
-    margin: auto;
+    padding-bottom: 92px;
 
     .title {
       width: 320px;
